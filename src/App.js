@@ -7,11 +7,7 @@ export default function App() {
   const [open, setOpen] = useState(false);
 
   const onChangeText = (e) => setText(e.target.value);
-  const onClickOpen = () => setText(!open);
-
-  const onClickCountup = () => {
-    setCount(count + 1);
-  };
+  const onClickOpen = () => setOpen(!open);
 
   return (
     <div className="App">
